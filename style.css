@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700); /* Montserrat font */
-@import url(http://fonts.googleapis.com/earlyaccess/hanna.css); /* Hanna font */
 
 *{
 	outline:0;padding: 0;margin:0;
@@ -44,29 +43,76 @@ and (min-width : 1824px) {
 }
 */
 
-
-
-/* Body */
-.basis
-{
+.default {
 	overflow: hidden;
-	background: #020102;
-	font-family: "Hanna";
-	font-size: 3em;
-	color: #ffffff;
+	float: center;
+	position: relative;
+	min-width: 350px;
+	background: #ffffff;
+	font-family: "Montserrat", serif;
+	color: #000000;
 	text-align: center;
+	font-size: 1em;
 }
 
-/* Footer */
-.footer
-{	
-	overflow: hidden;
-	position: relative;
-	min-width: 320px;
-	width: 100%;
-	background: #43f4e1;
-	font-family: "Montserrat", sans-serif;
-	font-size: 1em;
-	color: #ffffff;
-	text-align: center;
+/* HERO */
+.hero {
+	margin-top: 5em;
+	margin-bottom: 2em;
+}
+
+.hero img{
+	max-width: 350px;
+	margin-top: 1em;
+}
+
+/* CONTACT */
+.box {
+
+}
+
+.box p {
+	padding-top: 44%;
+}
+
+#box1 {
+	display: inline-block;
+	width: 350px; 
+	height: 206px; 
+	margin: auto;
+	background-image:url('images/mnbnaver.png');
+	background-repeat: no-repeat;
+}
+
+#box2 {
+	display: inline-block;
+	width: 350px; 
+	height: 206px; 
+	margin: auto;
+	background-image:url('images/mnbfb.png');
+	background-repeat: no-repeat;
+}
+
+#box3 {
+	display: inline-block;
+	width: 350px; 
+	height: 206px; 
+	margin: auto;
+	background-image:url('images/mnbemail.png');
+	background-repeat: no-repeat;
+}
+
+#box4 {
+	display: inline-block;
+	width: 350px; 
+	height: 206px; 
+	margin: auto;
+	background-image:url('images/mnblocation.png');
+	background-repeat: no-repeat;
+}
+
+/* COPYWRITE */
+.copywrite {
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
